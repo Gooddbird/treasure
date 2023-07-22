@@ -1,9 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2023-07-22T18:41:43.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="M_Jbz5O1ahOBXes4O8-2" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-22T18:47:23.658Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="TULuQVnZuBoU9kLXp2bC" version="21.6.5" type="github">
   <diagram name="第 1 页" id="PRA6DkVOoaUtliizaXOm">
     <mxGraphModel dx="2074" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Vn7EzobYqwCePefiUWPM-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Vn7EzobYqwCePefiUWPM-5" value="preCommit" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="Vn7EzobYqwCePefiUWPM-4" parent="1" source="Vn7EzobYqwCePefiUWPM-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="545" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="330" y="320" />
+              <mxPoint x="370" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vn7EzobYqwCePefiUWPM-6" value="yes" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="Vn7EzobYqwCePefiUWPM-4" parent="1" target="Vn7EzobYqwCePefiUWPM-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="420" />
+              <mxPoint x="300" y="570" />
+              <mxPoint x="380" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vn7EzobYqwCePefiUWPM-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Vn7EzobYqwCePefiUWPM-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="490" y="520" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Vn7EzobYqwCePefiUWPM-9" value="Commit" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="Vn7EzobYqwCePefiUWPM-11" target="Vn7EzobYqwCePefiUWPM-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="785" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="330" y="560" />
+              <mxPoint x="370" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vn7EzobYqwCePefiUWPM-10" value="yes" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="Vn7EzobYqwCePefiUWPM-8" target="Vn7EzobYqwCePefiUWPM-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="660" />
+              <mxPoint x="300" y="810" />
+              <mxPoint x="380" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vn7EzobYqwCePefiUWPM-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="10" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
